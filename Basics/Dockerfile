@@ -37,5 +37,5 @@ RUN cd ${INSTALL_DIR} \
 VOLUME /opt/navi
 
 WORKDIR ${INSTALL_DIR}
-CMD ["/entrypoint.sh", "serve"]
+CMD ["/entrypoint.sh", "server"]
 ENTRYPOINT ["/sbin/tini", "--"]
